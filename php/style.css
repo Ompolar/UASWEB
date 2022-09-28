@@ -1,0 +1,90 @@
+/* navbar */
+.navbar-brand {
+    font-family: Otomanopee One;
+}
+.nav-link {
+    text-transform: uppercase;
+}
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fff;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* background */
+body{
+    background-image: url(../gbr/gamingroom2.jpg);
+    background-size: cover;
+}
+.body-landing{
+    background-image: url(../gbr/gamingroom2b.jpg);
+    background-size: cover;
+}
+
+/* jumbotron */
+.jumbotron-fluid{
+    text-align: center;
+}
+.jumbotron .display-4{
+    padding-top: 75px;
+    color: white;
+    font-family: Otomanopee One;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.349);
+}
+.jumbotron .lead{
+    color: white;
+    font-family: Hind;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.349);
+}
+
+/* card */
+.card{
+    width: 18rem;
+    float:left;
+    margin: 2px;
+}
+
+/* tabel */
+.table td{
+    background-color: grey;
+}
+.table th{
+    background-color: grey;
+}
+
+
+/* tipografi */
+.container{
+    font-family: Hind;
+}
+.display-6{
+    color: white;
+    font-family: Hind;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.349);
+}
+.col-form-label{
+    font-family: Hind;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.349);
+}
+
+/* tombol */
+.btn-dark{
+    border-radius: 30px;
+}
+.btn-secondary{
+    border-radius: 30px;
+}
+
+
+/* sliding display */
+.carousel-item{
+    height: 20rem;
+}
+
+/* box about */
+.container-about{
+    border: 2px 2px white;
+}
